@@ -1,0 +1,21 @@
+# Build outputs
+Debug/
+Release/
+build/
+*.elf
+*.map
+*.hex
+*.bin
+
+# STM32CubeIDE
+.settings/
+*.launch
+*.ioc.bak
+
+# Cursor / editors
+.vscode/
+.cursor/cache/
+
+# OS files
+.DS_Store
+Thumbs.db
