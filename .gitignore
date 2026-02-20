@@ -1,0 +1,21 @@
+# STM32CubeIDE
+.metadata/
+
+# Build folders
+build/
+Debug/
+Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+log/
+
+# VSCode
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
