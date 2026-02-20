@@ -1,21 +1,40 @@
+# =========================
 # STM32CubeIDE
+# =========================
 .metadata/
+.settings/
+*.launch
+*.ioc.bak
 
-# Build folders
+# =========================
+# Build folders / outputs
+# =========================
 build/
 Debug/
 Release/
-
-# CMake
 CMakeFiles/
 CMakeCache.txt
+*.elf
+*.map
+*.hex
+*.bin
 
-# Logs
+# =========================
+# Logs / temp
+# =========================
 log/
-
-# VSCode
-.vscode/
-
-# Temporary files
 *.log
 *.tmp
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.cursor/cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
