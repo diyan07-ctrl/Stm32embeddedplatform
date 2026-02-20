@@ -3,7 +3,7 @@
 **Node Name:** `odyssix_mcu`
 **Target MCU:** STM32F401RE (ARM Cortex-M4, 84 MHz)
 **RTOS:** FreeRTOS (detected — 5 concurrent tasks)
-**Communication:** MCP2515 CAN @ 500 kbps (primary), XRCE-DDS over CAN (micro-ROS transport)
+**Communication:** MCP2515 CAN @ 500 kbps
 **Source Language:** C++
 
 ---
@@ -360,7 +360,7 @@ All DMA transfers are interrupt-notified. No polling of DMA complete flags occur
 
 | Property | Value |
 |----------|-------|
-| Transport type | Custom XRCE-DDS over MCP2515 CAN |
+| Transport type |
 | TX CAN ID | 0x200 (STM32 → Jetson agent) |
 | RX CAN ID | 0x100 (Jetson agent → STM32) |
 | Frame size | 8 bytes per CAN frame |
